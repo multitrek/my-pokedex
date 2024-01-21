@@ -50,6 +50,9 @@ dependencies {
     implementation(libs.androidx.compose.material3)
     implementation(libs.koin)
     implementation(libs.koin.compose)
+    implementation(libs.retrofit)
+    implementation(libs.retrofit.converter.gson)
+    implementation(libs.kotlin.coroutines)
 
     testImplementation(libs.junit)
 
